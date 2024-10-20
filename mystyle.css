@@ -1,0 +1,95 @@
+* {
+  margin: 0px;
+}
+
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+  background-image: url("images/bg1.jpg.png");
+}
+
+.navbar{
+    background-color: rgb(45, 45, 45);
+    color: white;
+    padding: 10px 15px;
+    margin-right: -10px;
+}
+.navbar-toggler.custom-toggler{
+  border-color: white;
+}
+.content{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(24, 24, 24);
+    margin-bottom: -25px;
+}
+#card{
+    color: rgb(255, 255, 255);
+    background-color: rgb(40, 40, 40);
+}
+s{
+  color: rgb(210, 208, 208);
+}
+.nav-item:hover{
+  background-color: rgb(60, 59, 59);
+  border-radius: 5px;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+.dropdown-item:hover{
+  background-color: rgb(85, 84, 84);
+}
+.foot{
+  width: 100%;
+  height: 400px;
+  background-color: rgb(45, 45, 45);
+  margin-right: -10px;
+
+}
+.details{
+  color: white;
+  font-weight:500;
+  font-size: 19px;
+}
+#about{
+  color: white;
+}
+#about:hover{
+  color: rgb(2, 95, 255);
+  transition: 0.2s;
+}
+.fa-brands:hover{
+  color: rgb(2, 95, 255) !important;
+  transition: 0.1s;
+}
+
+.form-label {
+  color: white;
+  font-size: x-large;
+}
+.remember {
+  color: white;
+  font-size: large;
+}
+.checked {
+  color: white;
+}
+.unchecked {
+  color: rgb(76, 76, 76);
+}
+.fa-star {
+  position: relative;
+}
+.rating {
+  font-size: 21px;
+}
+#gamecard{
+  color: rgb(255, 255, 255);
+  background-color: rgb(24, 24, 24);
+  border: none;
+}
+.card-text{
+  color: white;
+}
